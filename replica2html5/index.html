@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">    <title>Document</title>
+</head>
+<body>
+    <section class="wrapper">
+        <section class="header">
+        <header>
+            <section class="nav">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">
+                            <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                      <a href="#">HOME</a>
+                      <a href="#">GENERIC</a>
+                      <a href="#">ELEMENTS</a>
+                    </div>
+            </div> 
+            </section>
+            <div class="text1">
+                    <h2>YOUR BEST PARTNER</h2>
+                    <H1>Pemodule</H1>
+                    <input type="button" value="Get Started" class="buton1">
+                </div>
+        </header>
+
+        
+        </section>
+
+        <article>
+            <article class="grid">
+                <article class="grid-item">
+                        <h1>
+                                Reasons to <b>Choose</b> A Notebook
+                            </h1>
+                            <p>
+                                    Here, I focus on 
+                                    a range of items 
+                                    and features that 
+                                    we use in life without 
+                                    giving them a second thought. 
+                                    such as Coca Cola. Dolor sit amet, 
+                                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco. 
+                            </p>
+                </article>
+                <article class="grid-item">
+                        <img src="img/slider,jpg" alt="">
+                </article>
+                
+        </article>
+    </article>
+
+        <article>
+
+        </article>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+        <footer>
+
+        </footer>
+    </section>
+    <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                  if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                  }
+              }
+            }
+            </script>
+</body>
+</html>
